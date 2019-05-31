@@ -3,7 +3,7 @@ package model;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Room {
+public class Room extends Choice{
 
     private List<Monster> monsters;
     private List<Treasure> treasures;
@@ -48,6 +48,7 @@ public class Room {
             r.printOptionMessage();
             counter++;
         }
+
     }
 
     //MODIFIES: this

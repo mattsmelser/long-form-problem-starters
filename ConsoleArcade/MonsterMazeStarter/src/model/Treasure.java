@@ -1,6 +1,6 @@
 package model;
 
-public class Treasure {
+public class Treasure extends Choice{
 
     private int prize;
     private String optionMessage;

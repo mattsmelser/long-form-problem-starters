@@ -1,6 +1,6 @@
 package model;
 
-public class Monster {
+public class Monster extends Choice{
 
     private Treasure treasure;
     private String optionMessage;
